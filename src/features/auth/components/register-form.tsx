@@ -91,6 +91,12 @@ export function RegisterForm() {
                     type="button"
                     disabled={isPending}
                   >
+                    <Image
+                      alt="github"
+                      src="/logos/github.svg"
+                      width={20}
+                      height={20}
+                    />
                     Continue with GitHub
                   </Button>
                   <Button
@@ -99,6 +105,12 @@ export function RegisterForm() {
                     type="button"
                     disabled={isPending}
                   >
+                    <Image
+                      alt="github"
+                      src="/logos/google.svg"
+                      width={20}
+                      height={20}
+                    />
                     Continue with Google
                   </Button>
                 </div>
@@ -155,13 +167,13 @@ export function RegisterForm() {
                     )}
                   />
                   <Button type="submit" className="w-full" disabled={isPending}>
-                    Signup
+                    Sign up
                   </Button>
                 </div>
                 <div className="text-sm text-center">
                   Already have an account?{" "}
                   <Link href="/login" className="underline underline-offset-4">
-                    Login
+                    Log in
                   </Link>
                 </div>
               </div>
