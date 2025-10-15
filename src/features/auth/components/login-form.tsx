@@ -80,6 +80,12 @@ export function LoginForm() {
                     type="button"
                     disabled={isPending}
                   >
+                    <Image
+                      alt="github"
+                      src="/logos/github.svg"
+                      width={20}
+                      height={20}
+                    />
                     Continue with GitHub
                   </Button>
                   <Button
@@ -88,6 +94,12 @@ export function LoginForm() {
                     type="button"
                     disabled={isPending}
                   >
+                    <Image
+                      alt="github"
+                      src="/logos/google.svg"
+                      width={20}
+                      height={20}
+                    />
                     Continue with Google
                   </Button>
                 </div>
@@ -101,7 +113,7 @@ export function LoginForm() {
                         <FormControl>
                           <Input
                             type="email"
-                            placeholder="vishal@example.com"
+                            placeholder="name@example.com"
                             {...field}
                           />
                         </FormControl>
@@ -127,7 +139,7 @@ export function LoginForm() {
                     )}
                   />
                   <Button type="submit" className="w-full" disabled={isPending}>
-                    Login
+                    Log in
                   </Button>
                 </div>
                 <div className="text-sm text-center">
